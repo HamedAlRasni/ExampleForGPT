@@ -49,32 +49,32 @@ namespace MadaSoft.Pathology
         /// <summary>
         /// الجنسية
         /// </summary>
-        public string? Nationality { get; set; }
+        public Nationality? Nationality { get; set; }
 
         /// <summary>
         /// الديانة
         /// </summary>
-        public string? Religion { get; set; }
+        public Religion? Religion { get; set; }
 
         /// <summary>
         /// اللغة الأم
         /// </summary>
-        public string? NativeLanguage { get; set; }
+        public NativeLanguage? NativeLanguage { get; set; }
 
         /// <summary>
         /// الوظيفة
         /// </summary>
-        public string? Occupation { get; set; }
+        public Occupation? Occupation { get; set; }
 
         /// <summary>
         /// مكان العمل
         /// </summary>
-        public string? Workplace { get; set; }
+        public Workplace? Workplace { get; set; }
 
         /// <summary>
         /// المستوى التعليمي
         /// </summary>
-        public string? EducationLevel { get; set; }
+        public EducationLevel? EducationLevel { get; set; }
 
         
         /// <summary>
@@ -117,12 +117,12 @@ namespace MadaSoft.Pathology
         /// <summary>
         /// الدولة
         /// </summary>
-        public string? Country { get; set; }
+        public Country? Country { get; set; }
 
         /// <summary>
         /// المدينة
         /// </summary>
-        public string? City { get; set; }
+        public City? City { get; set; }
 
         /// <summary>
         /// الرمز البريدي
@@ -154,7 +154,7 @@ namespace MadaSoft.Pathology
         /// <summary>
         /// اسم الشركة التي توفر التأمين
         /// </summary>
-        public string? CompanyName { get; set; }
+        public CompanyInsurance? CompanyName { get; set; }
 
         /// <summary>
         /// رقم التأمين
@@ -175,7 +175,7 @@ namespace MadaSoft.Pathology
         /// <summary>
         /// اسم الطبيب
         /// </summary>
-        public string? DoctorName { get; set; }
+        public Doctor? Doctor { get; set; }
 
         /// <summary>
         /// تشخيص الطبيب
